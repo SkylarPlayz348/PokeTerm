@@ -106,7 +106,6 @@ typedef struct
     int file_size;
     char save_version[4];
     int encrypted; // Either 1 or 0
-    int
 } save_header_t;
 
 typedef struct

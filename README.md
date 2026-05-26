@@ -5,6 +5,8 @@
 
 ### Update 1(April 5th 2025): I got bored so I updated this to be a little clearer as I have better understanding of C. You can access it in the 2025 revise branch
 
+### Update 2(April 25th 2026): Once again I am working on this project. There are a few fixes and features I want to finish.
+
 ---
 ## Table of Contents
 - [Possible FAQ](./README.md#possible-faq)
@@ -12,16 +14,17 @@
     - [Console](./README.md#console)
         - [Console Return Key](README.md#console-return-key)
     - [Errors](./README.md#syntax)
-        - [Database](./README.md#database-errors)
+        - [Save](./README.md#save-errors)
         - [Game](./README.md#game-errors)
 
 ---
 
 ## Possible FAQ:
 ### What Is this
-This is a C version of my C ASM Pokemon project. This is based on Sun/Moon (Gen VII or 7).
+This originally started as a C version of a C and Assembly version of this project but has now turned in to a terminal version of pokemon.
 
-For now there is not all pokemon will be added as there are so many. I will bundle 150 with this.
+For now there is not all pokemon will be added as there are so many. I will bundle the original 151 with this to start.
+
 ### Why
 I want to get a good idea of how this will look in C so that I can make some of the other things in assembly.
 
@@ -54,7 +57,7 @@ I want to get a good idea of how this will look in C so that I can make some of 
 | `CONSOLE_POKEMART_EXIT_SELL`  | Exit Selling Mode                       |
 | `CONSOLE_POKEMART_EXIT`       | Exit Market Sub-Console                 |
 
-Based on this enum [console_return_t](https://github.com/SkylarPlayz348/C-Pokemon/blob/2025-Revise/console.h#L27)
+Based on this enum [console_return_t](https://github.com/SkylarPlayz348/C-Pokemon/blob/2025-Revise/src/console.h#L27)
 
 ##### More will come as the console evolves
 
@@ -67,12 +70,10 @@ Topic
 
 ### Save Errors
 
-When the save functions fail to load the
-
 #### Save Errors Table
 | Error | Meaning |
 | ----- | ------- |
-|       |
+| TBD   | TBD     |
 
 
 ## TODO
